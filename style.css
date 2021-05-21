@@ -1,0 +1,106 @@
+h1 {
+    color:#ffffff;
+}
+
+.grid img{
+    
+        border:2px solid #000000;
+        border-radius:50px;
+        }
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family:  'Times New Roman';
+    position: relative;
+}
+
+.origami p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.origami:hover p{
+    opacity: 1;
+    
+}
+
+.origami:hover img{
+    opacity: 0.33;
+    transform: scale(1.2);
+}
+
+ /* * {
+    border: solid;
+} */
+
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    display:flex;
+    justify-self:flex-start;
+    background-color:#000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+
+}
+
+body{
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+
+.header{
+    background-color:#000000;
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    color:#ffffff;
+    padding: 5px;
+          }
+
+          a:link{
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:visited{
+            color: blue;
+            
+        }
+
+        a:href{
+            text-decoration: none;
+        }
